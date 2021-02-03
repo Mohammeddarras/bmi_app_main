@@ -13,11 +13,13 @@ class ResultPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('result calc'),
       ),
-      body: Column(
-        children: [
-          Text(bmi, style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.blue),),
-          Text(result, style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.blue),),
-        ],
+      body: Center(
+        child: Column(
+          children: [
+            Text(bmi, style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.blue),),
+            Text(result, style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.blue),),
+          ],
+        ),
       ),
     );
   }
